@@ -17,7 +17,7 @@ function StartUp(props) {
               SFRD Market Place
             </h1>
           </div>
-          <LeftBoardItems></LeftBoardItems>          
+          <LeftBoardItems><h3>Dashboard</h3></LeftBoardItems>          
         </div>
         <div className="row-span-6 col-span-4 bg-gray-200 rounded-lg Right Pannel"></div>
       </div>

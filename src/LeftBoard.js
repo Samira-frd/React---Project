@@ -1,15 +1,14 @@
+import LeftBoardItems from "./LeftBoardItems";
 
 
 function LeftBord(props){
 
     return(
-        <div className=" text-xl p-5 m-8 text-slate-500">
-             
-            <h3>{props.title}</h3>
-            <div className=" p-3">
-               <i>{props.image}</i><label>{props.title}</label>
-            </div>
+        <div className=" hover:border-l-4 hover:border-orange-500 text-slate-500">            
             
+            <div className="  hover:text-orange-400 text-sm ml-7 p-2">
+               <i className=" pr-4">{props.image}</i><label>{props.title}</label>
+            </div>           
             
         </div>
     )
